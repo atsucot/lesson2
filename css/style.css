@@ -1,0 +1,25 @@
+.title1 {
+  color: blue;
+  font-weight: bolder;
+}
+.title2 {
+  color: blue;
+  font-weight: bolder;
+}
+.title2 {
+  text-align: right;
+}
+img.src {
+  position: relative;
+  left: 200px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.box {
+  width: 700px;
+  height: 100px;
+  background: blue;
+}
