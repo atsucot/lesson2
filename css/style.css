@@ -1,25 +1,26 @@
-.title1 {
+p{
   color: blue;
-  font-weight: bolder;
 }
-.title2 {
+.parent{
+  display: flex;
+  justify-content: flex-end;
+}
+.child{
   color: blue;
-  font-weight: bolder;
 }
-.title2 {
-  text-align: right;
-}
-img.src {
+.container{
   position: relative;
-  left: 200px;
 }
+img{
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.box{
+  width: 800px;
+  height: 150px;
+  background-color: blue;
+  position: absolute;
 
-h1 {
-  font-size: 40px;
-}
-
-.box {
-  width: 700px;
-  height: 100px;
-  background: blue;
-}
