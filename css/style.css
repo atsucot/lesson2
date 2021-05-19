@@ -1,26 +1,39 @@
-p{
+p {
   color: blue;
+  font-weight: bold;
 }
-.parent{
+.parent {
   display: flex;
   justify-content: flex-end;
 }
-.child{
+.child {
   color: blue;
+  margin: 1%;
+  font-weight: bold;
 }
-.container{
+.container {
   position: relative;
 }
-img{
-  width: 400px;
-  height: 300px;
+img {
+  width: 700px;
+  height: 400px;
   position: absolute;
-  top: 0;
+  top: 50px;
   right: 0;
+  z-index: 30;
 }
-.box{
+.box {
   width: 800px;
   height: 150px;
   background-color: blue;
   position: absolute;
+  top: 400px;
+  z-index: 10;
+}
 
+.title {
+  font-size: 50px;
+  font-weight: lighter;
+  position: absolute;
+  top: 350px;
+}
