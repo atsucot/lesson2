@@ -6,9 +6,14 @@ p {
   display: flex;
   justify-content: flex-end;
 }
+.child1 {
+  color: blue;
+  margin-right: 800px;
+  font-weight: bold;
+}
 .child {
   color: blue;
-  margin: 1%;
+  margin-left: 3%;
   font-weight: bold;
 }
 .container {
